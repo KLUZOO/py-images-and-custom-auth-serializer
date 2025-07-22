@@ -8,6 +8,7 @@ from django.utils.text import slugify
 
 """Main model"""
 
+
 class CinemaHall(models.Model):
     name = models.CharField(max_length=255)
     rows = models.IntegerField()
